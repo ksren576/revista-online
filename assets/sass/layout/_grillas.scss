@@ -1,27 +1,11 @@
-body{
+.grilla{
    display: grid;
    grid-template-columns: 1fr;
-   grid-template-rows: repeat(4, auto);
-   grid-gap:15px;
+   grid-template-rows: repeat(6, auto);
+   grid-gap:10px;
    margin: 10px;
-}
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-
-}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-
-}
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-
+   @media (min-width: 576px) {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: repeat(3, auto);
+   }
 }

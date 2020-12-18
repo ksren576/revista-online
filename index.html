@@ -9,51 +9,35 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/main.css">
-
+    <link rel="shortcut icon" type="" href="assets/img/favicon.svg">
 </head>
 
 <body>
     <nav class="navegacion">
         <h1 class="navegacion__titulo">Diario</h1>
-        <ul class="navegacion__nav">
-            <li>
-                <a href="#">contacto</a>
-                <a href="#">nosotros</a>
-            </li>
-        </ul>
-        <input class="navegacion__buscar" type="text" placeholder="buscar...">
+        <div>
+            <ul class="navegacion__nav">
+                <li>
+                    <a href="#">contacto</a>
+                    <a href="#">nosotros</a>
+                </li>
+            </ul>
+            <input class="navegacion__buscar" type="text" placeholder="buscar...">
+        </div>
     </nav>
 
-    <main class="main">
-        <section class="contenido">
-            <h2 class="contenido__titulo">Lorem ipsum dolor sit amet,</h2>
-
-            <div class="boletin">
-                <div class="contenedor__centrado">
-
-
-
-
-                    <h2 class="boletin__titulo">Lorem ipsum dolor sit amet</h2>
-                    <p class="boletin__parrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                    <div class="centrado">
-                        <input class="boletin__input" type="email">
-                        <button class="boletin__button">Suscríbete</button>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <main class="grilla">
         <aside class="menu-vertical">
             <h2 class="menu-vertical__titulo">Nosotros</h2>
             <p class="menu-vertical__parrafo">Lorem ipsum dolor sit amet<br> consectetur adipisicing elit.<br> Quaerat
                 assumenda totam id,eos magnam odio non perspiciatis impedit nam at.</p>
             <hr>
             <h2 class="menu-vertical__titulo">Tags</h2>
-            <ul class="menu-vertical__tags">
-                <li>Viajes</li>
-                <li>Noticias</li>
-                <li>Comida</li>
-            </ul>
+            <div class="menu-vertical__tag-container">
+                <p class="menu-vertical__tags">Viajes</p>
+                <p class="menu-vertical__tags">Noticias</p>
+                <p class="menu-vertical__tags">Comida</p>
+            </div>
             <hr>
             <h2 class="menu-vertical__titulo">Destacados</h2>
             <div class="menu-vertical__contenedor-imagen">
@@ -72,9 +56,53 @@
                 <h2 class="menu-vertical__contenedor-imagen__titulo-imagen">Lorem ipsum dolor sit amet</h2>
                 <img class="img" src="https://picsum.photos/200/200?random=2" />
             </div>
-       
-    </aside>
+
+        </aside>
+        <div class="card">
+            <h2>Lorem ipsum dolor sit amet,</h2>
+            <img class="img" src="https://picsum.photos/200/300?random=2" />
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="card">
+            <h2>Lorem ipsum dolor sit amet,</h2>
+            <img class="img" src="https://picsum.photos/200/300?random=1" />
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="card">
+            <h2>Lorem ipsum dolor sit amet,</h2>
+            <img class="img" src="https://picsum.photos/200/300?random=3" />
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="card">
+            <h2>Lorem ipsum dolor sit amet,</h2>
+            <img class="img" src="https://picsum.photos/200/300?random=4" />
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="card">
+            <h2>Lorem ipsum dolor sit amet,</h2>
+            <img class="img" src="https://picsum.photos/200/300?random=5" />
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="card">
+            <h2>Lorem ipsum dolor sit amet,</h2>
+            <img class="img" src="https://picsum.photos/200/300?random=6" />
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
     </main>
+
+    <section>
+        <div class="boletin">
+            <div class="contenedor__centrado">
+                <h2 class="boletin__titulo">Lorem ipsum dolor sit amet</h2>
+                <p class="boletin__parrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <div class="centrado">
+                    <input class="boletin__input" type="email">
+                    <button class="boletin__button">Suscríbete</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer class="footer">
         <p class="footer__derechos">Todos los derechos Reservados</p>
     </footer>

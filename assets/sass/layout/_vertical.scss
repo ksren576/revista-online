@@ -1,9 +1,13 @@
 .menu-vertical {
-    width:15%;
-    display: inline-block;
-    height: 100%;
-    vertical-align: top;
+    display: none;
+    @media (min-width: 576px) {
+        display: block;
+        grid-column: 4 / 4;
+        grid-row: 1 / 3;
+    }
+
     background-color: $lightgray;
+    padding: 20px;
     &__titulo{
         text-transform: uppercase;
         font-family: $nunito;
@@ -22,7 +26,12 @@
             font-weight: $regular;
         }
     }
+    &__tag-container {
+        text-align: center;
+    }
     &__tags {
+        border-radius: 5px;
+        display: inline-block;
         background-color: $skyblue;
         list-style: none;
         font-size: 14px;
