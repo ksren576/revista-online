@@ -1,17 +1,84 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Revista Online</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/main.css">
+
 </head>
+
 <body>
-    <nav></nav>
-    <main></main>
-    <section></section>
-    <aside></aside>
-    <footer></footer>
-    
+    <nav class="navegacion">
+        <h1 class="navegacion__titulo">Diario</h1>
+        <ul class="navegacion__nav">
+            <li>
+                <a href="#">contacto</a>
+                <a href="#">nosotros</a>
+            </li>
+        </ul>
+        <input class="navegacion__buscar" type="text" placeholder="buscar...">
+    </nav>
+
+    <main class="main">
+        <section class="contenido">
+            <h2 class="contenido__titulo">Lorem ipsum dolor sit amet,</h2>
+
+            <div class="boletin">
+                <div class="contenedor__centrado">
+
+
+
+
+                    <h2 class="boletin__titulo">Lorem ipsum dolor sit amet</h2>
+                    <p class="boletin__parrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <div class="centrado">
+                        <input class="boletin__input" type="email">
+                        <button class="boletin__button">Suscríbete</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <aside class="menu-vertical">
+            <h2 class="menu-vertical__titulo">Nosotros</h2>
+            <p class="menu-vertical__parrafo">Lorem ipsum dolor sit amet<br> consectetur adipisicing elit.<br> Quaerat
+                assumenda totam id,eos magnam odio non perspiciatis impedit nam at.</p>
+            <hr>
+            <h2 class="menu-vertical__titulo">Tags</h2>
+            <ul class="menu-vertical__tags">
+                <li>Viajes</li>
+                <li>Noticias</li>
+                <li>Comida</li>
+            </ul>
+            <hr>
+            <h2 class="menu-vertical__titulo">Destacados</h2>
+            <div class="menu-vertical__contenedor-imagen">
+                <h2 class="menu-vertical__contenedor-imagen__titulo-imagen">Lorem ipsum dolor sit amet </h2>
+                <img class="img" src="https://picsum.photos/200/200?random=7" />
+            </div>
+            <div class="menu-vertical__contenedor-imagen">
+                <h2 class="menu-vertical__contenedor-imagen__titulo-imagen">Lorem ipsum dolor sit amet</h2>
+                <img class="img" src="https://picsum.photos/200/200?random=1" />
+            </div>
+            <div class="menu-vertical__contenedor-imagen">
+                <h2 class="menu-vertical__contenedor-imagen__titulo-imagen">Lorem ipsum dolor sit amet</h2>
+                <img class="img" src="https://picsum.photos/200/200?random=5" />
+            </div>
+            <div class="menu-vertical__contenedor-imagen">
+                <h2 class="menu-vertical__contenedor-imagen__titulo-imagen">Lorem ipsum dolor sit amet</h2>
+                <img class="img" src="https://picsum.photos/200/200?random=2" />
+            </div>
+       
+    </aside>
+    </main>
+    <footer class="footer">
+        <p class="footer__derechos">Todos los derechos Reservados</p>
+    </footer>
+
 </body>
+
 </html>

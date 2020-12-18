@@ -1,0 +1,31 @@
+.menu-vertical {
+    width:15%;
+    display: inline-block;
+    height: 100%;
+    vertical-align: top;
+    background-color: $lightgray;
+    &__titulo{
+        text-transform: uppercase;
+        font-family: $nunito;
+        font-weight: $bold;
+        font-size: 20px;
+    }
+    &__parrafo{
+        font-family: $nunito;
+        font-weight: $regular;
+        font-size: 12px;
+    }
+    &__contenedor-imagen {
+        &__titulo-imagen{
+            font-family: $nunito;
+            font-size: 16px;
+            font-weight: $regular;
+        }
+    }
+    &__tags {
+        background-color: $skyblue;
+        list-style: none;
+        font-size: 14px;
+        padding: 10px 5px;
+    }
+}

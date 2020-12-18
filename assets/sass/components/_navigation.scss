@@ -1,0 +1,38 @@
+.navegacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: $black 2px solid;
+    background-color: $snow;
+    &__titulo{
+        text-transform: uppercase;
+        margin-right: 20px;
+        font-family: $nunito;
+        font-size: 20px;
+        font-weight: $bold;
+    }
+    &__nav{
+        list-style: none;
+        a{
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 12px;
+            font-family: $nunito;
+            font-weight: $regular;
+        }
+        margin-right: 12px;
+    }
+    &__buscar{
+        border-radius: 20px;
+        border-style: solid;
+        width: 120px;
+        font-family: $nunito;
+        font-weight: $regular;
+    }
+
+    }
+
+
+
+

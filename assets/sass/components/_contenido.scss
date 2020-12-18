@@ -1,0 +1,10 @@
+.contenido{
+    background-color: $lightgray;
+    width: 84%;
+    display: inline-block;
+    &__titulo{
+        font-family: $nunito;
+        font-weight: $bold;
+        font-size:20px;
+    }
+}
