@@ -1,6 +1,19 @@
 .menu-vertical {
     display: none;
     @media (min-width: 576px) {
+        display: none;
+    }
+    @media (min-width:768px) {
+        display: block;
+        grid-column: 3 / 3;
+        grid-row: 1 / 3;
+    }
+    @media (min-width:992px) {
+        display: block;
+        grid-column: 4 / 4;
+        grid-row: 1 / 3;
+    }
+    @media (min-width:1200px) {
         display: block;
         grid-column: 4 / 4;
         grid-row: 1 / 3;
